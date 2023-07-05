@@ -9,7 +9,7 @@
     },
     "params": [],
     "settings": {
-      "timeout": 5000,
+      "timeout": 500,
       "row_limit": 50
     },
     "sql_file": "sql/GET-dsfd.sql",
