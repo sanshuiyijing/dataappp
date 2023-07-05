@@ -1,18 +1,35 @@
 [
   {
-    "name": "test-1",
+    "name": "/222",
     "description": "",
     "method": "GET",
-    "endpoint": "/test1",
+    "endpoint": "/222",
     "data_source": {
-      "cluster_id": 1373933076662647294
+      "cluster_id": 1379661944646224362
     },
     "params": [],
     "settings": {
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-test1.sql",
+    "sql_file": "sql/GET-222.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "untitled endpoint",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/gggg",
+    "data_source": {
+      "cluster_id": 1379661944646224362
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-gggg.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
