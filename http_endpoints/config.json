@@ -1,35 +1,52 @@
 [
   {
-    "name": "/test1",
+    "name": "/sff",
     "description": "",
-    "method": "POST",
-    "endpoint": "/dsdd",
+    "method": "GET",
+    "endpoint": "/sff",
     "data_source": {
-      "cluster_id": 3779089
+      "cluster_id": 1373933076662377099
     },
     "params": [],
     "settings": {
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/POST-dsdd.sql",
+    "sql_file": "sql/GET-sff.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
   {
-    "name": "/dsf",
+    "name": "/dsee",
     "description": "",
     "method": "GET",
-    "endpoint": "/ds",
+    "endpoint": "/dsee",
     "data_source": {
-      "cluster_id": 3779089
+      "cluster_id": 1373933076662647294
     },
     "params": [],
     "settings": {
-      "timeout": 50,
-      "row_limit": 100
+      "timeout": 5000,
+      "row_limit": 50
     },
-    "sql_file": "sql/GET-ds.sql",
+    "sql_file": "sql/GET-dsee.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/ddd",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/ddd",
+    "data_source": {
+      "cluster_id": 1373933076662647296
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-ddd.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
