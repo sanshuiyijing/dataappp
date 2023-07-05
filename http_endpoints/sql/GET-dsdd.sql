@@ -5,4 +5,5 @@ Declare a parameter like "Where id = ${arg}".
 */
 SELECT "Hello World";
 use test;
-select * from test;
+/** comments
+**/
