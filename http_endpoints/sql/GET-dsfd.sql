@@ -6,3 +6,5 @@ Declare a parameter like "Where id = ${arg}".
 SELECT "Hello World";
 use test;
 select * from test;
+-- this is comment
+-- comment line1
