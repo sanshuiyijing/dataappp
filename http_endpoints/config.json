@@ -20,7 +20,7 @@
     "name": "/dsf",
     "description": "",
     "method": "GET",
-    "endpoint": "/dsfd",
+    "endpoint": "/ds",
     "data_source": {
       "cluster_id": 3779089
     },
@@ -29,7 +29,7 @@
       "timeout": 50,
       "row_limit": 100
     },
-    "sql_file": "sql/GET-dsfd.sql",
+    "sql_file": "sql/GET-ds.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
