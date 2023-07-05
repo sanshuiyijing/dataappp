@@ -2,7 +2,7 @@
   {
     "name": "/test1",
     "description": "",
-    "method": "GET",
+    "method": "POST",
     "endpoint": "/dsdd",
     "data_source": {
       "cluster_id": 3779089
@@ -12,7 +12,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-dsdd.sql",
+    "sql_file": "sql/POST-dsdd.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
