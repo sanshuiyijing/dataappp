@@ -7,3 +7,4 @@ SELECT "Hello World";
 use test;
 /** comments
 **/
+select * from test;
