@@ -1,0 +1,78 @@
+[
+  {
+    "name": "test-2",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test2",
+    "data_source": {
+      "cluster_id": 1373933076662647293
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-test2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "test-1",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test1",
+    "data_source": {
+      "cluster_id": 1373933076662647294
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-test1.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "test-3",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test3",
+    "data_source": {
+      "cluster_id": 1373933076662647294
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-test3.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "test-4",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test4",
+    "data_source": {
+      "cluster_id": 1373933076662647294
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-test4.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
