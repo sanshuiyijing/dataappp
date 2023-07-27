@@ -12,6 +12,8 @@
       "timeout": 5000,
       "row_limit": 100
     },
+    "tag": "Default",
+    "batch_operation": 0,
     "sql_file": "sql/GET-ds.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -29,6 +31,8 @@
       "timeout": 5000,
       "row_limit": 50
     },
+    "tag": "Default",
+    "batch_operation": 0,
     "sql_file": "sql/POST-dsdd.sql",
     "type": "sql_endpoint",
     "return_type": "json"

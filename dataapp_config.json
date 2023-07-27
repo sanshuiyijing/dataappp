@@ -1,5 +1,7 @@
 {
   "app_id": "dataapi-PnJHicdl",
-  "app_name": "New App1",
-  "app_type": "dataapi"
+  "app_name": "New    app1 test",
+  "app_type": "dataapp",
+  "description": "",
+  "app_version": "1.0.0"
 }
