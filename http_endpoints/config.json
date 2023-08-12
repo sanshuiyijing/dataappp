@@ -10,7 +10,8 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 100
+      "row_limit": 100,
+      "enable_pagination": 0
     },
     "tag": "Default",
     "batch_operation": 0,
@@ -29,7 +30,8 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 50,
+      "enable_pagination": 0
     },
     "tag": "Default",
     "batch_operation": 0,
